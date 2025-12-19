@@ -1,0 +1,41 @@
+# Fichiers Terraform
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Fichiers override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Fichiers de verrouillage
+.terraform.lock.hcl
+
+# Répertoire .terraform
+.terraform/
+
+# Fichiers de plan
+*.terraform.tfstate.lock.info
+
+# Fichiers de backend auto-générés
+backend-config.auto.tfvars
+
+# Fichiers sensibles
+secrets.auto.tfvars
+
+# Fichiers d'environnement
+.env
+.env.local
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
